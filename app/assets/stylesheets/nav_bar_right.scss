@@ -1,0 +1,53 @@
+@import "variables";
+
+.nav-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 25%;
+    background-color: $light-grey;
+}
+
+.feed-title {
+    color: $grey;
+    padding: 20px;
+}
+
+.feed-items {
+    font-weight: 700;
+    padding: 20px;
+}
+
+.feeds-list > * {
+    padding: 10px 20px;
+}
+
+.feed-index-item > * {
+    text-decoration: none;
+
+}
+
+.feed-index-item:hover {
+    background-color: $middle-grey;
+    cursor: pointer;
+}
+
+.feed-index-item-title {
+    // background-color: red;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-weight: 700;
+    color: $black;
+}
+
+.feed-index-item-detail {
+    position: fixed;
+    top: 0;
+    left: 25%;
+}
+
+.feed-index-item-detail > * {
+    padding: 10px;
+}
