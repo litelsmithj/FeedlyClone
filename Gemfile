@@ -34,6 +34,8 @@ gem 'bcrypt'
 gem 'jquery-rails'
 gem 'activerecord-reset-pk-sequence'
 
+
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
